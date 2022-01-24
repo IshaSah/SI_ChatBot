@@ -1,0 +1,77 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+        "responses": [
+          "Hey",
+          "Hello, how can I help?",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "will visit soon"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help :)", "Any time!"]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "what is your name","what should i call you","what's your name?","who are you?","can you tell me your name"],
+        "responses": [
+          "you can call me SIbot!","I am SIbot!","I am SIbot, your assistant"
+        ]
+      },
+      {
+        "tag": "Help",
+        "patterns": [
+          "Hey, can you help me?","Can you please guide me","I need help","I need assistance"],
+        "responses": [
+          "Yes, sure. What can I help you with?",
+          "Sure,What can I do for you?",
+          "Yes, how can I be useful?",
+          "Sure,  how can I help?"
+        ]
+      },
+      {
+        "tag": "Songs",
+        "patterns": [
+          "Can you suggest me a good song?",
+          "Tell me a good song.",
+          "I want to listen a good song."
+        ],
+        "responses": [
+          "Listen to Perfect Two",
+          "Listen to Sunflower-SpiderMan ",
+          "Listen to Let Me Down Solwly",
+          "Listen to Waqt Ki Baatein",
+          "Listen to Baarishein"
+        ]
+      },
+      {
+        "tag": "Movies",
+        "patterns": [
+          "Can you suggest me a good movie?",
+          "Tell me a good movie.",
+          "I want to watch a good movie."
+        ],
+        "responses": [
+          "Watch Godfather: IMDB rating (9.2)",
+          "Watch Eternal Sunshine of the Spotless Mind: IMDB rating (8.3) ",
+          "Watch Coco: IMDB rating (8.3)",
+          "Watch Before Trilogy",
+          "Watch Elona Holmes"
+        ]
+      }
+    ]
+  }
